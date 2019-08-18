@@ -6,7 +6,7 @@ https://arxiv.org/abs/1906.07241
 #### *data set:* Linked WikiText-2
 https://rloganiv.github.io/linked-wikitext-2/#/
 
-#### *compared against:* AWD-LSTM
+### *compared against:* AWD-LSTM
 
 **language models:**
 
@@ -22,7 +22,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
    
    ht = RNN(ht−1, xt−1)
 
-#### *knowledge graph language model* **(KGLM)**
+### *knowledge graph language model* **(KGLM)**
 
 **idea**
 
