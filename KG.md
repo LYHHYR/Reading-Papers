@@ -1,12 +1,12 @@
 # Knowledge Graph
 
-### *1. Barack’s Wife Hillary:Using Knowledge Graphs for Fact-Aware Language Modeling*
+### 1. *Barack’s Wife Hillary:Using Knowledge Graphs for Fact-Aware Language Modeling*
 https://arxiv.org/abs/1906.07241
 
 #### *data set:* Linked WikiText-2
 https://rloganiv.github.io/linked-wikitext-2/#/
 
-### 1.1 *compared against:* AWD-LSTM
+### 1.1. *compared against:* AWD-LSTM
 
 **language models:**
 
@@ -22,7 +22,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
    
    ht = RNN(ht−1, xt−1)
 
-### 1.2 *knowledge graph language model* **(KGLM)**
+### 1.2. *knowledge graph language model* **(KGLM)**
 
 **idea**
 
@@ -30,9 +30,9 @@ https://rloganiv.github.io/linked-wikitext-2/#/
 
    a dynamically growing *local knowledge graph* = {entities that have already been mentioned} 
 
-   1) render a new entity, growing the local knowledge graph
+   (1) render a new entity, growing the local knowledge graph
    
-   2) render a fact from local graph
+   (2) render a fact from local graph
 
 **notations**
 
@@ -47,6 +47,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
    p(xt,Et|x<t,E<t)
 
 **generative process**
-
+   
+   
 
 
