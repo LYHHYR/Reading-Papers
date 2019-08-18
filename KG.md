@@ -1,17 +1,20 @@
 # Knowledge Graph
 
 ### *1. Barack’s Wife Hillary:Using Knowledge Graphs for Fact-Aware Language Modeling*
-（https://arxiv.org/abs/1906.07241）
+https://arxiv.org/abs/1906.07241
 
 #### *data set:* Linked WikiText-2
 https://rloganiv.github.io/linked-wikitext-2/#/
 
 #### *compared against:* AWD-LSTM
-language models:  p(xt|x<t)
-                  xt -- the next token which is going to be predicted
-                  x<t -- the sequence have already been known
-RNN language models: p(xt|x<t) = softmax(Wh*ht + b),
-                            ht = RNN(ht−1, xt−1)
+language models:  
+p(xt|x<t)
+xt -- the next token which is going to be predicted
+x<t -- the sequence have already been known
+
+RNN language models: 
+p(xt|x<t) = softmax(Wh*ht + b),
+ht = RNN(ht−1, xt−1)
 
 #### *knowledge graph language model* **(KGLM)**
 a dynamically growing *local knowledge graph* = {entities that have already been mentioned} 
