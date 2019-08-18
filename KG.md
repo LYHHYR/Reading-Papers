@@ -8,7 +8,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
 
 #### *compared against:* AWD-LSTM
 
-##### language models:  
+**language models:**
 
    p(xt|x<t)
    
@@ -16,7 +16,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
    
    x<t -- the sequence have already been known
 
-##### RNN language models: 
+**RNN language models:**
 
    p(xt|x<t) = softmax(Wh*ht + b),
    
@@ -24,7 +24,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
 
 #### *knowledge graph language model* **(KGLM)**
 
-##### idea
+**idea**
 
    a *knowledge graph*
 
@@ -34,7 +34,7 @@ https://rloganiv.github.io/linked-wikitext-2/#/
    
    2) render a fact from local graph
 
-##### notations
+**notations**
 
    nodes: entities E
    
@@ -46,6 +46,6 @@ https://rloganiv.github.io/linked-wikitext-2/#/
    
    p(xt,Et|x<t,E<t)
 
-##### generative process
+**generative process**
 
 
