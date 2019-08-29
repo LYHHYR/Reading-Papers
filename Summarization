@@ -1,1 +1,25 @@
+Text Generation from Knowledge Graphs with Graph Transformerst
 
+1. architectures
+1) encoders: CNN, LSTM, Transformer
+2) decoders: auto-regressive, non auto-regressive
+
+2. 
+1) external transferable knowledge
+Glove, BERT, different learning schemas (supervised learning, reinforcement learning)
+CNN/DailyMail
+position information
+2) unsupervised transferable knowledge
+(How to use transformer in extractive summerazition?)
+
+3.
+1) sentence encoder --> 
+doesn't matter
+
+document encoder --> 
+LSTM-based
+transformer
+
+decoder 
+Sequence Labeling(SeqLab): auto-regressive
+Pointer Network
