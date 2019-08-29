@@ -42,7 +42,22 @@ word embedding: Word2Vec, CW vectors, GloVe
 * diversity of the sentence
 * coverage of the input text
  
+=========================================================================
+Fast Abstractive Summarization with Reinforce-Selected Sentence Rewriting
+=========================================================================
+released code, best pretrained models, output summaries: https://github.com/ChenRocks/fast_abs_rl
+a hybrid extractive-abstractive architecture
+#   extractor agent  #: 1) select salient sentences
+# abstractor network #: 2) rewrite them abstractively
 
+parallel decoding: sentence level & word level
+embedded word vectors --(convolutional encoder)--> sentence encoder
+--(RNN encoder)--> context-aware representation --(RNN decoder)--> select sentence
+
+# Extractor Agent
+## Hierarchical Sentence Representation:
+## Sentence Selection: LSTM-RNN to train a Pointer Network
+# Abstractor Network
 
 
 
