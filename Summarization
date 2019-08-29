@@ -1,4 +1,6 @@
+==============================================================
 Text Generation from Knowledge Graphs with Graph Transformerst
+==============================================================
 
 1. architectures
 1) encoders: CNN, LSTM, Transformer
@@ -23,3 +25,24 @@ transformer
 decoder 
 Sequence Labeling(SeqLab): auto-regressive
 Pointer Network
+
+======================================================
+A Survey on Neural Network-Based Summarization Methods
+======================================================
+Evaluation
+1) intrinsic: system-generated summaries v.s. human-created "gold" summaries: ROUGE, Pyramid
+2) extrinsic: based on the performance of the down-stream task
+
+* Neural-Based Summarization Techniques
+word embedding: Word2Vec, CW vectors, GloVe
+--> encoder: sentence/document: CNNs，RNNs; Recursive Auto-encoder(RAE) 
+--> model: selection/generation
+
+1) sentence selection
+* diversity of the sentence
+* coverage of the input text
+ 
+
+
+
+
