@@ -59,5 +59,6 @@ embedded word vectors --(convolutional encoder)--> sentence encoder
 ## Sentence Selection: LSTM-RNN to train a Pointer Network
 # Abstractor Network
 
-
+{summarization technique used in dialogue}
+knowledge --> abstractive summarization according to key word --> generate sentence with purpose
 
