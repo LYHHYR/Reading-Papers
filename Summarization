@@ -1,7 +1,6 @@
-==============================================================
-Text Generation from Knowledge Graphs with Graph Transformerst
-==============================================================
-
+====================================================================================
+Searching for Effective Neural Extractive Summarization: What Works and What's Next
+====================================================================================
 1. architectures
 1) encoders: CNN, LSTM, Transformer
 2) decoders: auto-regressive, non auto-regressive
@@ -62,16 +61,19 @@ embedded word vectors --(convolutional encoder)--> sentence encoder
 {summarization technique used in dialogue}
 knowledge --> abstractive summarization according to key word --> generate sentence with purpose
 
-====================================================================
-Topic-Aware Convolutional Neural Networks for Extreme Summarization
-====================================================================
-https://github.com/shashiongithub/XSum
+=================================================================================================
+What is this Article about? Extreme Summarization with Topic-aware Convolutional Neural Networks
+=================================================================================================
+dataset, code, and demo: https://github.com/shashiongithub/XSum
 1) draws on information interspersed in various parts of the document
-2) display multiple levels of abstraction including paraphrasing, fusion, synthesis, and inference
+2) multiple levels of abstraction including paraphrasing, fusion, synthesis, and inference
 
-model: topic-conditioned convolutional neural model
-extractive: sentence ranking, binary classification
-            data-driven
-abstractive: RNN
-this model:
+===============================================================================
+NEWSROOM: A Dataset of 1.3 Million Summaries with Diverse Extractive Strategies
+===============================================================================
+dataset: https://summari.es
+
+1) retrieves a prototype response from a pre-defined index
+2) edits the prototype response according to the differences between the prototype context and the current context
+
 
