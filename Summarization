@@ -62,3 +62,16 @@ embedded word vectors --(convolutional encoder)--> sentence encoder
 {summarization technique used in dialogue}
 knowledge --> abstractive summarization according to key word --> generate sentence with purpose
 
+====================================================================
+Topic-Aware Convolutional Neural Networks for Extreme Summarization
+====================================================================
+https://github.com/shashiongithub/XSum
+1) draws on information interspersed in various parts of the document
+2) display multiple levels of abstraction including paraphrasing, fusion, synthesis, and inference
+
+model: topic-conditioned convolutional neural model
+extractive: sentence ranking, binary classification
+            data-driven
+abstractive: RNN
+this model:
+
