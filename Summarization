@@ -22,12 +22,24 @@ Challenge
 Topic Concentration in Query Focused Summarization Datasets
 ===========================================================
 
+=============================================================================================
+Earlier Isn’t Always Better: Sub-aspect Analysis on Corpus and System Biases in Summarization
+=============================================================================================
+summarization bias in sub-aspect: position, importance, diversity
+domain: news, academic papers, meeting minutes, movie script, books, posts
+different systems: neural-based
 
-
-
-
-
-
+dataset
+-------
+• CNNDM (Nallapati et al., 2016): contains 300K number of online news articles. It has multiple sentences (4.0 on average) as a summary.
+• Newsroom (Grusky et al., 2018): contains 1.3M news articles and written summaries by authors and editors from 1998 to 2017. It has both ex- tractive and abstractive summaries.
+• XSum (Narayan et al., 2018a): has news articles and their single but abstractive sentence sum- maries mostly written by the original author.
+• PeerRead (Kang et al., 2018): consists of sci- entific paper drafts in top-tier computer science venues as well as arxiv.org. We use full text of introduction section as source document and of abstract section as target summaries.
+• PubMed (Kedzie et al., 2018): is 25,000 medical journal papers from the PubMed Open Access Subset.7 Unlike PeerRead, full paper except for abstract is used as source documents.
+• MScript (Gorinski and Lapata, 2015): is a col- lection of movie scripts from ScriptBase corpus and their corresponding user summaries of the movies.
+• BookSum (Mihalcea and Ceylan, 2007): is a dataset of classic books paired to summaries from Grade Saver8 and Cliffs Notes9. Due to a large number of sentences, we only choose the first 1K sentences for source document and the first 50 sentences for target summaries.
+• Reddit (Ouyang et al., 2017): is a collection of personal posts from reddit.com. We use a single abstractive summary per post. The same data split from Kedzie et al. (2018) is used.
+• AMI (Carletta et al., 2005): is documented meet- ing minutes from a hundred hours of recordings and their abstractive summaries.
 
 ====================================================================================
 Searching for Effective Neural Extractive Summarization: What Works and What's Next
@@ -106,5 +118,10 @@ dataset: https://summari.es
 
 1) retrieves a prototype response from a pre-defined index
 2) edits the prototype response according to the differences between the prototype context and the current context
+
+=========================================================================================
+Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs
+=========================================================================================
+entity relation extraction: edge representations formed as paths between nodes
 
 
