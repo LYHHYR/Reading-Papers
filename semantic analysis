@@ -1,0 +1,15 @@
+1. From insanely jealous to insanely delicious: Computational models for the semantic bleaching of English intensifiers
+
+adverb: manner usage --(bleach)--> intensifier
+
+# Methods
+1) loss of lexical meaning
+2) gain of intendifier meaning
+3) increased productivity
+
+--> similarity of adverbs to very (SIMVERY)
+    the cosine similarity between the HistWords embedding for an adverb and the embedding for the very
+--> similarity of adverb to original lexical meaning (SIMLEX)
+--> productivity of adverb (BREADTH)
+    --> type diversity
+    --> breadth
