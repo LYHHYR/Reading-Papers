@@ -124,4 +124,18 @@ Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriente
 =========================================================================================
 entity relation extraction: edge representations formed as paths between nodes
 
+=======================================================================================================
+Countering the Effects of Lead Bias in News Summarization via Multi-Stage Training and Auxiliary Losses
+=======================================================================================================
+make systems sensitive to the importance of content in different parts of the article
+
+1) employs "unbiased" data:
+shuffle sentence
+2) auxiliary ROUGE-based loss
+
+
+
+
+
+
 
