@@ -134,6 +134,21 @@ shuffle sentence
 2) auxiliary ROUGE-based loss
 
 
+=====================================================================================================
+EditNTS: An Neural Programmer-Interpreter Model for Sentence Simplification through Explicit Editing
+=====================================================================================================
+1. text simplification (TS) <-- machine translation (MT)
+(1)statistical machine translation (SMT)-based models
+(2)neural machine translation (NMT)-based models
+
+2. end-to-end Neural Programmer-Interpreter
+predict edit operation: ADD, DELETE, KEEP, STOP
+
+EditNTS Model
+{x} --> {y}
+{ADD(W), DELETE, KEEP, STOP}
+
+
 
 
 
