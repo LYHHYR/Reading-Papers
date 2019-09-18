@@ -1,0 +1,25 @@
+==============================================
+Simplifying Text for Language-Impaired Readers
+==============================================
+1999
+
+1. motivation
+1) aphasic people
+lexical:
+syntactic:
+2) non-native speaker
+
+2. data: newspaper articles
+
+3. system
+Lexical Tagger
+Morphological Analyser
+Parser
+Anaphor Resolver
+Syntactic Simplifier
+......
+
+
+==================================================================
+Hybrid Simplification using Deep Semantics and Machine Translation
+==================================================================
