@@ -1,0 +1,7 @@
+1. Communication-based Evaluation for Natural Language Generation
+https://arxiv.org/pdf/1909.07290.pdf
+NLG evaluation: 
+1. n-gram(BLEU, ROUGE): ~~semantics or speaker intention~~synonymous
+2. Rational Speech Acts: convey information
+3. human judgement: expensive
+
