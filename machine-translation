@@ -1,0 +1,20 @@
+一句话之内。
+1. 条件概率。
+2. p(y|y(-1),z), contextual language model, vanilla seq2seq, attention-based
+3. 非概率模型
+
+字/词、词组（分词） ----> 句子流畅
+oov
+
+数据集
+
+数据增强
+
+评测
+n-gram based:对生成长度敏感
+BLEU, ROUGE
+
+温故知新、移花接木、望表知里（人工观察数据规律）、生活实践
+
+- 不要为论点找论据
+- 实验记录、预实验分析
