@@ -1,0 +1,12 @@
+Knowledge-Aware Natural Language Understanding
+e = encode(I)
+o = reason(e)
+
+I: the set of textual inputs
+e: intermediate encoded representations
+o: the final task specific predictions
+
+Knowledge-Aware NLU
+e = encode_with_background(I, Ke)
+o = reason_in_contect(e, Kr)
+
