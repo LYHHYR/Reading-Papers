@@ -1,0 +1,8 @@
+Humor recognization
+
+incongruity theory: violates our common sense and expectations
+                    semantic distance - cosine similarity between word embedding
+                    
+ambiguity: the computation of ambiguity features is based on WordNet
+
+interpersonal effect: 
